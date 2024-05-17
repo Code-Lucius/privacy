@@ -1,0 +1,53 @@
+.template{
+    height: 400px;
+}
+
+/* .template--1{
+    height: 90%;
+    width:90%;
+    border: 2px solid white;
+    overflow: hidden;
+} */
+
+.template--1{
+    height: 90%;
+    width:90%;
+    border: 2px solid white;
+    display: flex; /* Use flexbox for dynamic text scaling */
+    align-items: center; /* Center align text vertically */
+    overflow: hidden; /* Hide overflow */
+}
+
+.temp--2{
+    border: 10px solid green;
+}
+
+.template--2{   
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+/* .template--content{
+    font-size: 1.5em;
+    font-weight: bold;
+    overflow: hidden;
+    text-size-adjust: auto;
+} */
+
+.template--content{
+    /* font-size: 1.5em;*/
+    font-weight: bold;
+    flex: 1; /* Allow content to grow to fill the space */
+    overflow: hidden; /* Hide overflow */
+    text-size-adjust: auto; /* Allow browser to adjust font size */
+}
+
+.links--div{
+    height: 100px; 
+    border:2px solid black; 
+    border-radius:5px;
+}
+
+.links{
+    font-size: 1.5em;
+}
